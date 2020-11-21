@@ -78,6 +78,11 @@
 			&.open {
 				transform: translateX(0);
 			}
+			&.active {
+				a {
+					color: $secondary-color;
+				}
+			}
 		}
 		&_link {
 			display: inline-block;
