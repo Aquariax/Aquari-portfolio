@@ -82,7 +82,7 @@
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #f07744;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 
 .about .jobs_job h2,
@@ -92,6 +92,10 @@
 
 .about .jobs_job h6 {
   margin: 0.3rem 0;
+}
+
+.about .jobs_job .text-secondary.special {
+  line-height: 1.5rem;
 }
 
 .about .social-icons {

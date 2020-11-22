@@ -35,13 +35,18 @@
 			background: lighten($primary-color, 10%);
 			padding: 0.5rem;
 			border-bottom: 5px solid $secondary-color;
-			line-height: 1rem;
+			line-height: 1.2rem;
 			h2,
 			h3 {
 				margin: 0.5rem 0;
 			}
 			h6 {
 				margin: 0.3rem 0;
+			}
+			.text-secondary {
+				&.special {
+					line-height: 1.5rem;
+				}
 			}
 		}
 	}
