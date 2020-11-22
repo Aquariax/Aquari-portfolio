@@ -82,6 +82,7 @@
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #f07744;
+  line-height: 1rem;
 }
 
 .about .jobs_job h2,
@@ -462,8 +463,9 @@
     font-size: 3rem;
   }
   .contact_list {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0 10vw;
   }
   .contact_list .text-secondary {
     font-size: 3rem;
@@ -480,21 +482,19 @@
   .projects-items_item {
     width: 100%;
   }
-  .projects .text-secondary {
-    font-size: 3rem;
-  }
   .contact_list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-  }
-  .contact_list .text-secondary {
-    font-size: 3rem;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 1600px) {
   .projects_bio-imnage {
     height: 50vh;
+  }
+  .contact_list {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 

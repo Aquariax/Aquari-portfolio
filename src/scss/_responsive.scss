@@ -33,10 +33,13 @@
 			font-size: 3rem;
 		}
 	}
-	.contact_list {
-		grid-template-columns: repeat(2, 1fr);
-		.text-secondary {
-			font-size: 3rem;
+	.contact {
+		&_list {
+			grid-template-columns: repeat(1, 1fr);
+			margin: 0 10vw;
+			.text-secondary {
+				font-size: 3rem;
+			}
 		}
 	}
 }
@@ -51,19 +54,16 @@
 				width: 100%;
 			}
 		}
-		.text-secondary {
-			font-size: 3rem;
-		}
 	}
 	.contact_list {
-		grid-template-columns: repeat(3, 1fr);
-		.text-secondary {
-			font-size: 3rem;
-		}
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 @include media-xl {
 	.projects_bio-imnage {
 		height: 50vh;
+	}
+	.contact_list {
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
